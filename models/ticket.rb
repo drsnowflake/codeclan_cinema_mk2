@@ -1,5 +1,4 @@
 require_relative('../db/sql_runner')
-require_relative('customer')
 
 class Ticket
   attr_accessor :customer_id, :screening_id
